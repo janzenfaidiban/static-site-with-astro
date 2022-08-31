@@ -1,8 +1,8 @@
 ---
-title: Desain Halaman Profil Dengan Bootstrap 5.x
-slug: desain-halaman-profil-dengan-bootstrap-5.x
-excerpt: Cara menerapkan bootstrap pada project mendesain halaman profil. Mencakup grid system dan komponen card dan juga font awesome untuk buat icon pada bagian kontak dan sosial media.
-date: 2022-26-08
+title: Mengenal CSS (Cascading Style Sheets)
+slug: mengenal-css-cascading-style-sheets
+excerpt: Tutorial Mengenal CSS (Cascading Style Sheets) bagi pemula. Penjelasan terkait apa itu CSS dan cara menerapkan CSS pada dokumen HTML serta mengenal Framework CSS Bootstrap.
+date: 2022-22-06
 author: Janzen Faidiban
 youtube: https://youtu.be/ZA3DX0DtmXA
 ---

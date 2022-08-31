@@ -4,5 +4,45 @@ import Showcase from '../components/Showcase.astro';
 ---
 
 <Layout>
-	<Showcase showExtra={true} />
+	<!-- <Showcase showExtra={true} /> -->
+	<section class="my-5 py-5" id="about-me">
+		<div class="container my-5 py-5">
+
+			<div class="row">
+
+				<div class="col-lg-4 text-center">
+					<img src="./src/images/janzen-avatar.png"alt="Janzen Avatar" class="img img-fluid rounded-circle border border-5 border-dark shadow">
+				</div>
+
+				<div class="col-lg-8">
+					
+					<div class="p-5">
+
+						<h1 class="display-1 fw-bolder">Hi, I'm Janzen</h1>
+						<p class="fs-1 text-muted my-4">
+							Web & Software Developer 
+						</p>
+						<p class="text-muted mb-4">
+							My passion is to create and maintenance digital platform for business. In my part time, I like to learn and share my experience to people who want to learn tech.
+						</p>
+						<a href="./about-me" class="btn btn-lg btn-dark">About me</a>
+						<a href="https://github.com/janzenfaidiban" target="_blank" class="btn btn-lg btn-outline-dark">
+							<i class="fa-brands fa-github"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/janzen-faidiban/" target="_blank" class="btn btn-lg btn-outline-dark">
+							<i class="fa-brands fa-linkedin"></i>
+						</a>
+						<a href="https://instagram.com/janzen.faidiban" target="_blank" class="btn btn-lg btn-outline-dark">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			
+		</div>
+	</section>
 </Layout>

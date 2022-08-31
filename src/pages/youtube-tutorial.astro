@@ -9,7 +9,7 @@ const posts = await Astro.glob('../posts/youtube-tutorial/*.md');
 <Layout title="Youtube Tutorial">
   <Showcase 
     heading="Youtube Tutorial" 
-    text="Some of my articles..." />
+    text="Di waktu senggang saya suka membuat tutorial video atau berbagai apa yang sudah saya pelajari dalam bentuk video di Youtube." />
 
   <section class="my-5 py-5" id="skill">
     <div class="container">
@@ -18,9 +18,9 @@ const posts = await Astro.glob('../posts/youtube-tutorial/*.md');
         <div class="col-lg-4 col-sm-6">
           <div class="card mb-3 shadow">
           <Card>
-            <div class="card-body p-5">
+            <div class="card-body p-4">
               <h3 class="fw-bolder">
-                
+                <i class="fa-solid fa-play-circle"></i>
                 {post.frontmatter.title}
               </h3>
               
@@ -32,7 +32,7 @@ const posts = await Astro.glob('../posts/youtube-tutorial/*.md');
                 </a>
 
             </div> 
-            <div class="card-footer d-flex justify-content-between px-5">
+            <div class="card-footer d-flex justify-content-between px-4">
               <small>
                 Written by <strong>{post.frontmatter.author} </strong> on {new Date(post.frontmatter.date).toLocaleDateString()}
               </small>
