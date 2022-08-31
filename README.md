@@ -17,6 +17,8 @@ Semua perintah untuk menjalankan project dari sebuah terminal :
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
 | `npm run astro --help` | Get help using the Astro CLI                       |
 
-## Demo
+## Publikasi di Netlify
 
-demo coming soon...
+Bisa dicek [DI SINI](https://melodic-melba-7e49f7.netlify.app)
+
+
