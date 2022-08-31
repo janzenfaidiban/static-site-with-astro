@@ -1,0 +1,77 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Showcase from "../components/Showcase.astro";
+import janzen_avatar from "../images/janzen-avatar.png";
+---
+
+<Layout title="About me">
+
+	<Showcase 
+		heading="About me" 
+		text="A litle story about me..." />
+
+	<section class="my-5 py-5" id="about-me">
+		<div class="container my-5">
+
+			<div class="row">
+
+				<div class="col-lg-6 text-center">
+					<img src={janzen_avatar} alt="Janzen Avatar">
+
+					<div class="my-5">
+						<a href="https://github.com/janzenfaidiban" target="_blank" class="link-light text-decoration-none bg-dark py-2 px-3 me-2 rounded">
+							<i class="fa-brands fa-github"></i> GitHub
+						</a>
+						<a href="https://www.linkedin.com/in/janzen-faidiban/" target="_blank" class="link-light text-decoration-none bg-dark py-2 px-3 me-2 rounded">
+							<i class="fa-brands fa-linkedin"></i> LinkedIn
+						</a>
+					</div>
+
+				</div>
+
+				<div class="col-lg-6">
+					<p class="fw-bold">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+						ipsum deserunt inventore ut voluptate, officia maiores repellat
+						tenetur praesentium omnis est ex tempora a necessitatibus
+						reiciendis at et dignissimos. Ipsam eius consequuntur cupiditate
+						aperiam porro, esse laborum impedit nesciunt ut voluptatum
+						assumenda aspernatur libero iusto error molestias dolorum,
+						necessitatibus labore?
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+						ipsum deserunt inventore ut voluptate, officia maiores repellat
+						tenetur praesentium omnis est ex tempora a necessitatibus
+						reiciendis at et dignissimos. Ipsam eius consequuntur cupiditate
+						aperiam porro, esse laborum impedit nesciunt ut voluptatum
+						assumenda aspernatur libero iusto error molestias dolorum,
+						necessitatibus labore?
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+						ipsum deserunt inventore ut voluptate, officia maiores repellat
+						tenetur praesentium omnis est ex tempora a necessitatibus
+						reiciendis at et dignissimos. Ipsam eius consequuntur cupiditate
+						aperiam porro, esse laborum impedit nesciunt ut voluptatum
+						assumenda aspernatur libero iusto error molestias dolorum,
+						necessitatibus labore?
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+						ipsum deserunt inventore ut voluptate, officia maiores repellat
+						tenetur praesentium omnis est ex tempora a necessitatibus
+						reiciendis at et dignissimos. Ipsam eius consequuntur cupiditate
+						aperiam porro, esse laborum impedit nesciunt ut voluptatum
+						assumenda aspernatur libero iusto error molestias dolorum,
+						necessitatibus labore?
+					</p>
+				</div>
+
+			</div>
+
+			
+		</div>
+	</section>
+	
+</Layout>

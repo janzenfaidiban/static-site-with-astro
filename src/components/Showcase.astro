@@ -1,0 +1,35 @@
+---
+import logos from '../images/framework-logos.png'
+import logosSmall from '../images/framework-logos-small.png'
+import janzen_avatar from "../images/janzen-avatar.png";
+
+export interface Props {
+  heading?: string;
+  text?: string;
+  showExtra?: boolean;
+}
+
+const { 
+  heading = "JanzenNotes", 
+  text="Hello everyone! I am Janzen Faidiban.", 
+  showExtra = false } = Astro.props as Props;
+---
+
+<section class="bg-light text-dark text-center py-5 border-bottom border-dark border-5 shadow" id="home">
+  
+  <div class="row my-5 pt-5">
+
+    <div class="col-6 mx-auto">
+
+      {showExtra && <>
+        <img class="rounded-circle border m-3" src={janzen_avatar} alt="Janzen Avatar" />
+      </>}
+
+      <h1 class="display-1 fw-bolder">{heading}</h1>
+      <p>{text}</p>
+
+    </div>
+
+  </div>
+
+</section>
