@@ -2,7 +2,7 @@
 
 Website built with Astro from my [YouTube crash course](https://youtu.be/Oi9z5gfIHJs).
 
-<img src="/src/images/screen.png">
+<img src="/src/images/screenshot.png">
 
 ## Usage
 
