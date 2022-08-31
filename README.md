@@ -1,12 +1,12 @@
-# Astro Crash Course
+# Static Site with Astro
 
-Website built with Astro from my [YouTube crash course](https://youtu.be/Oi9z5gfIHJs).
+Astro Island bisa diakses [DI SINI](https://astro.build)
 
 <img src="/src/images/screenshot.png">
 
-## Usage
+## Cara Gunakan
 
-All commands are run from the root of the project, from a terminal:
+Semua perintah untuk menjalankan project dari sebuah terminal :
 
 | Command                | Action                                             |
 | :--------------------- | :------------------------------------------------- |
@@ -17,6 +17,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
 | `npm run astro --help` | Get help using the Astro CLI                       |
 
-## HTML & CSS Theme
+## Demo
 
-All of the .html files, style.css and images are in the `astro-website-theme` folder.
+demo coming soon...
